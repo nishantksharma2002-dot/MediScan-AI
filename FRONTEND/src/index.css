@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "./old_index.css";
+
+/* Theme Utility Classes */
+.text-main { color: var(--text-primary); }
+.text-dim { color: var(--text-secondary); }
+.bg-surface { background: var(--bg-card); }
+.border-main { border-color: var(--glass-border); }
+.bg-navbar-safe { background: var(--bg-navbar); }
+.bg-overlay-safe { background: var(--bg-overlay); }
+
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-30px) scale(1.05); }
+}
+.animate-bounce-slow {
+  animation: bounce-slow 10s ease-in-out infinite;
+}

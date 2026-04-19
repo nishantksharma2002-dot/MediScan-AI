@@ -1,0 +1,7 @@
+{
+  "name": "MediScan Pro",
+  "description": "Production-grade medical prescription scanner and analyzer using AI-powered OCR and vision analysis.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
